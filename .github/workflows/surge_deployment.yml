@@ -34,7 +34,7 @@ jobs:
     - name: Build React App
       run: yarn build
       env:
-         CI: ""
+         CI: false
       
     - name: Install Surge
       run: npm install -g surge
